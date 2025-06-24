@@ -1,0 +1,18 @@
+.field-login {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border: 0.5px solid #c5bbbb;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.field-login::placeholder {
+  color: #191919;
+  opacity: 0.5;
+}
+
+.field-login:focus {
+  border-color: #000;
+  border: 1px solid #000;
+}
